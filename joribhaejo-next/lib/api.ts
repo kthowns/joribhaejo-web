@@ -1,7 +1,7 @@
 import { Post, Message, Comment, User, ApiResponse, PaginatedResponse, PostFilters, Board, PostCreateRequest } from './types'
 
 // API 기본 설정
-const API_BASE_URL = 'http://jorib.mobidic.shop/api'
+const API_BASE_URL = 'https://jorib.kthowns.cloud/api'
 
 export class ApiError extends Error {
   constructor(public status: number, message: string, public data?: any) {
